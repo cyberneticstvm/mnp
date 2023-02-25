@@ -9,9 +9,9 @@
   <meta name="author" content="elemis">
   <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
   <link rel="shortcut icon" href="{{ asset('assets/img/favicon.png') }}">
-  <link rel="stylesheet" href="./assets/css/plugins.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/colors/purple.css">
+  <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/colors/purple.css') }}">
 </head>
 
 <body>
@@ -638,8 +638,8 @@
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
-  <script src="./assets/js/plugins.js"></script>
-  <script src="./assets/js/theme.js"></script>
+  <script src="{{ asset('assets/js/plugins.js') }}"></script>
+  <script src="{{ asset('assets/js/theme.js' }}"></script>
 </body>
 
 </html>
