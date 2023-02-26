@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    $title = "MNP Rental - Car Rental in Dubai"; $description = ""; $keywords = "";
+    return view('index', compact('title', 'description', 'keywords'));
 });

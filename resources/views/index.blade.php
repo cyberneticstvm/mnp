@@ -1,24 +1,24 @@
 @extends("base")
 @section("content")
-<section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 bg-content text-white" data-image-src="./assets/img/photos/bg4.jpg">
+<section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 bg-content text-white" data-image-src="{{ asset('assets/img/mnp/header-bg.webp') }}">
     <div class="container pt-18 pb-16" style="z-index: 5; position:relative">
     <div class="row gx-0 gy-12 align-items-center">
         <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 content text-center text-lg-start" data-cues="slideInDown" data-group="page-title" data-delay="600">
         <h1 class="display-2 mb-5 text-white">Crafting project specific solutions with expertise.</h1>
         <p class="lead fs-lg lh-sm mb-7 pe-xl-10">We’re a creative company that focuses on establishing long-term relationships with customers.</p>
         <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-            <span><a href="#" class="btn btn-lg btn-white rounded-pill me-2">Explore Now</a></span>
+            <span><a href="#" class="btn btn-lg btn-white rounded-pill me-2">Book Now</a></span>
             <span><a href="#" class="btn btn-lg btn-outline-white rounded-pill">Contact Us</a></span>
         </div>
         </div>
         <!--/column -->
         <div class="col-lg-5 offset-lg-1">
-        <div class="swiper-container dots-over shadow-lg" data-margin="5" data-nav="true" data-dots="true">
+        <div class="swiper-container dots-over shadow-lg" data-margin="5" data-nav="true" data-dots="true" data-autoplay="true">
             <div class="swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./assets/img/photos/about21.jpg" srcset="./assets/img/photos/about21@2x.jpg 2x" class="rounded" alt="" /></div>
-                <div class="swiper-slide"><a href="./assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox data-gallery="hero"><i class="icn-caret-right"></i></a><img src="./assets/img/photos/about22.jpg" srcset="./assets/img/photos/about22@2x.jpg 2x" class="rounded" alt="" /></div>
-                <div class="swiper-slide"><img src="./assets/img/photos/about23.jpg" srcset="./assets/img/photos/about23@2x.jpg 2x" class="rounded" alt="" /></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/img/mnp/photo1.webp') }}" srcset="{{ asset('assets/img/mnp/photo1.webp') }}" class="rounded" alt="" /></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/img/mnp/photo2.webp') }}" srcset="{{ asset('assets/img/mnp/photo2.webp') }}" class="rounded" alt="" /></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/img/mnp/photo3.webp') }}" srcset="{{ asset('assets/img/mnp/photo3.webp') }}" class="rounded" alt="" /></div>
             </div>
             <!--/.swiper-wrapper -->
             </div>
@@ -434,304 +434,78 @@
         <!--/column -->
     </div>
     <!--/.row -->
-    <div class="row mb-3">
-        <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
-        <h2 class="fs-15 text-uppercase text-primary mb-3">Our Team</h2>
-        <h3 class="display-4 mb-7 px-lg-19 px-xl-18">Think unique and be innovative. Make a difference with Sandbox.</h3>
-        </div>
-        <!--/column -->
-    </div>
-    <!--/.row -->
-    <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0 mb-md-20">
-        <div class="col-md-6 col-lg-3">
-        <div class="position-relative">
-            <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-            <div class="card">
-            <figure class="card-img-top"><img class="img-fluid" src="./assets/img/avatars/t1.jpg" srcset="./assets/img/avatars/t1@2x.jpg 2x" alt="" /></figure>
-            <div class="card-body px-6 py-5">
-                <h4 class="mb-1">Coriss Ambady</h4>
-                <p class="mb-0">Financial Analyst</p>
-            </div>
-            <!--/.card-body -->
-            </div>
-            <!-- /.card -->
-        </div>
-        <!-- /div -->
-        </div>
-        <!--/column -->
-        <div class="col-md-6 col-lg-3">
-        <div class="position-relative">
-            <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-            <div class="card">
-            <figure class="card-img-top"><img class="img-fluid" src="./assets/img/avatars/t2.jpg" srcset="./assets/img/avatars/t2@2x.jpg 2x" alt="" /></figure>
-            <div class="card-body px-6 py-5">
-                <h4 class="mb-1">Cory Zamora</h4>
-                <p class="mb-0">Marketing Specialist</p>
-            </div>
-            <!--/.card-body -->
-            </div>
-            <!-- /.card -->
-        </div>
-        <!-- /div -->
-        </div>
-        <!--/column -->
-        <div class="col-md-6 col-lg-3">
-        <div class="position-relative">
-            <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-            <div class="card">
-            <figure class="card-img-top"><img class="img-fluid" src="./assets/img/avatars/t3.jpg" srcset="./assets/img/avatars/t3@2x.jpg 2x" alt="" /></figure>
-            <div class="card-body px-6 py-5">
-                <h4 class="mb-1">Nikolas Brooten</h4>
-                <p class="mb-0">Sales Manager</p>
-            </div>
-            <!--/.card-body -->
-            </div>
-            <!-- /.card -->
-        </div>
-        <!-- /div -->
-        </div>
-        <!--/column -->
-        <div class="col-md-6 col-lg-3">
-        <div class="position-relative">
-            <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-            <div class="card">
-            <figure class="card-img-top"><img class="img-fluid" src="./assets/img/avatars/t4.jpg" srcset="./assets/img/avatars/t4@2x.jpg 2x" alt="" /></figure>
-            <div class="card-body px-6 py-5">
-                <h4 class="mb-1">Jackie Sanders</h4>
-                <p class="mb-0">Investment Planner</p>
-            </div>
-            <!--/.card-body -->
-            </div>
-            <!-- /.card -->
-        </div>
-        <!-- /div -->
-        </div>
-        <!--/column -->
-    </div>
-    <!--/.row -->
     </div>
     <!-- /.container -->
 </section>
 <!-- /section -->
 <section class="wrapper bg-gray">
     <div class="container py-14 pt-md-0 pb-md-17">
-    <div class="row mt-md-n50p text-white text-center">
-        <div class="col-xl-10 mx-auto mb-14 mb-lg-n6">
-        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400" data-image-src="./assets/img/photos/bg2.jpg">
-            <div class="card-body p-9 p-xl-12">
-            <div class="row gx-0">
-                <div class="col-xxl-9 mx-auto">
-                <div class="swiper-container dots-light dots-closer mb-6" data-margin="30" data-dots="true">
-                    <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                        <span class="ratings five mb-3"></span>
-                        <blockquote class="border-0 fs-lg mb-2">
-                            <p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio consectetur.”</p>
-                            <div class="blockquote-details justify-content-center text-center">
-                            <div class="info ps-0">
-                                <h5 class="mb-1 text-white">Coriss Ambady</h5>
-                                <p class="mb-0">Financial Analyst</p>
+        <div class="row mt-md-n50p text-white text-center">
+            <div class="col-xl-10 mx-auto mb-14 mb-lg-n6">
+                <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400" data-image-src="./assets/img/photos/bg2.jpg">
+                    <div class="card-body p-9 p-xl-12">
+                    <div class="row gx-0">
+                        <div class="col-xxl-9 mx-auto">
+                        <div class="swiper-container dots-light dots-closer mb-6" data-margin="30" data-dots="true">
+                            <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                <span class="ratings five mb-3"></span>
+                                <blockquote class="border-0 fs-lg mb-2">
+                                    <p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio consectetur.”</p>
+                                    <div class="blockquote-details justify-content-center text-center">
+                                    <div class="info ps-0">
+                                        <h5 class="mb-1 text-white">Coriss Ambady</h5>
+                                        <p class="mb-0">Financial Analyst</p>
+                                    </div>
+                                    </div>
+                                </blockquote>
+                                </div>
+                                <!--/.swiper-slide -->
+                                <div class="swiper-slide">
+                                <span class="ratings five mb-3"></span>
+                                <blockquote class="border-0 fs-lg mb-2">
+                                    <p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio consectetur.”</p>
+                                    <div class="blockquote-details justify-content-center text-center">
+                                    <div class="info ps-0">
+                                        <h5 class="mb-1 text-white">Cory Zamora</h5>
+                                        <p class="mb-0">Marketing Specialist</p>
+                                    </div>
+                                    </div>
+                                </blockquote>
+                                </div>
+                                <!--/.swiper-slide -->
+                                <div class="swiper-slide">
+                                <span class="ratings five mb-3"></span>
+                                <blockquote class="border-0 fs-lg mb-2">
+                                    <p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio consectetur.”</p>
+                                    <div class="blockquote-details justify-content-center text-center">
+                                    <div class="info ps-0">
+                                        <h5 class="mb-1 text-white">Nikolas Brooten</h5>
+                                        <p class="mb-0">Sales Manager</p>
+                                    </div>
+                                    </div>
+                                </blockquote>
+                                </div>
+                                <!--/.swiper-slide -->
                             </div>
+                            <!--/.swiper-wrapper -->
                             </div>
-                        </blockquote>
+                            <!--/.swiper -->
                         </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                        <span class="ratings five mb-3"></span>
-                        <blockquote class="border-0 fs-lg mb-2">
-                            <p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio consectetur.”</p>
-                            <div class="blockquote-details justify-content-center text-center">
-                            <div class="info ps-0">
-                                <h5 class="mb-1 text-white">Cory Zamora</h5>
-                                <p class="mb-0">Marketing Specialist</p>
-                            </div>
-                            </div>
-                        </blockquote>
+                        <!-- /.swiper-container -->
                         </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                        <span class="ratings five mb-3"></span>
-                        <blockquote class="border-0 fs-lg mb-2">
-                            <p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio consectetur.”</p>
-                            <div class="blockquote-details justify-content-center text-center">
-                            <div class="info ps-0">
-                                <h5 class="mb-1 text-white">Nikolas Brooten</h5>
-                                <p class="mb-0">Sales Manager</p>
-                            </div>
-                            </div>
-                        </blockquote>
-                        </div>
-                        <!--/.swiper-slide -->
+                        <!-- /column -->
                     </div>
-                    <!--/.swiper-wrapper -->
+                    <!-- /.row -->
                     </div>
-                    <!--/.swiper -->
+                    <!--/.card-body -->
                 </div>
-                <!-- /.swiper-container -->
-                </div>
-                <!-- /column -->
-            </div>
-            <!-- /.row -->
-            </div>
-            <!--/.card-body -->
-        </div>
-        <!--/.card -->
-        </div>
-        <!-- /column -->
-    </div>
-    <!-- /.row -->
-    <div class="row text-center">
-        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-        <h2 class="fs-15 text-uppercase text-primary mb-3">Our Pricing</h2>
-        <h3 class="display-4 mb-10 px-xl-10">We offer great prices, premium products and quality service for your business.</h3>
-        </div>
-        <!-- /column -->
-    </div>
-    <!-- /.row -->
-    <div class="row">
-        <div class="col-xl-11 mx-auto">
-        <div class="pricing-wrapper position-relative mb-10 mb-md-14">
-            <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
-            <div class="shape rounded-circle bg-line primary rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
-            <div class="pricing-switcher-wrapper switcher">
-            <p class="mb-0 pe-3">Monthly</p>
-            <div class="pricing-switchers">
-                <div class="pricing-switcher pricing-switcher-active"></div>
-                <div class="pricing-switcher"></div>
-                <div class="switcher-button bg-primary"></div>
-            </div>
-            <p class="mb-0 ps-3">Yearly</p>
-            </div>
-            <div class="row gy-6 mt-3 mt-md-5">
-            <div class="col-md-6 col-lg-4">
-                <div class="pricing card">
-                <div class="card-body">
-                    <div class="prices text-dark">
-                    <div class="price price-show justify-content-start"><span class="price-currency">$</span><span class="price-value">9</span> <span class="price-duration">mo</span></div>
-                    <div class="price price-hide price-hidden justify-content-start"><span class="price-currency">$</span><span class="price-value">99</span> <span class="price-duration">yr</span></div>
-                    </div>
-                    <!--/.prices -->
-                    <h4 class="card-title mt-2">Basic Plan</h4>
-                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                    <li><i class="uil uil-check"></i><span><strong>1</strong> Project </span></li>
-                    <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                    <li><i class="uil uil-check"></i><span><strong>100MB</strong> Storage </span></li>
-                    <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong> </span></li>
-                    <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
-                    </ul>
-                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
-                </div>
-                <!--/.card-body -->
-                </div>
-                <!--/.pricing -->
-            </div>
-            <!--/column -->
-            <div class="col-md-6 col-lg-4 popular">
-                <div class="pricing card">
-                <div class="card-body">
-                    <div class="prices text-dark">
-                    <div class="price price-show justify-content-start"><span class="price-currency">$</span><span class="price-value">19</span> <span class="price-duration">mo</span></div>
-                    <div class="price price-hide price-hidden justify-content-start"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
-                    </div>
-                    <!--/.prices -->
-                    <h4 class="card-title mt-2">Premium Plan</h4>
-                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                    <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
-                    <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                    <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
-                    <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                    <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
-                    </ul>
-                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
-                </div>
-                <!--/.card-body -->
-                </div>
-                <!--/.pricing -->
-            </div>
-            <!--/column -->
-            <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
-                <div class="pricing card">
-                <div class="card-body">
-                    <div class="prices text-dark">
-                    <div class="price price-show justify-content-start"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">mo</span></div>
-                    <div class="price price-hide price-hidden justify-content-start"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
-                    </div>
-                    <!--/.prices -->
-                    <h4 class="card-title mt-2">Corporate Plan</h4>
-                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                    <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                    <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
-                    <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
-                    <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                    <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
-                    </ul>
-                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
-                </div>
-                <!--/.card-body -->
-                </div>
-                <!--/.pricing -->
-            </div>
-            <!--/column -->
-            </div>
-            <!--/.row -->
-        </div>
-        <!--/.pricing-wrapper -->
-        <div class="row gx-md-8 gx-xl-12 gy-10">
-            <div class="col-lg-6">
-            <div class="d-flex flex-row">
-                <div>
-                <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
-                </div>
-                <div>
-                <h4>Can I cancel my subscription?</h4>
-                <p class="mb-0">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod maecenas.</p>
-                </div>
-            </div>
-            </div>
-            <!-- /column -->
-            <div class="col-lg-6">
-            <div class="d-flex flex-row">
-                <div>
-                <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
-                </div>
-                <div>
-                <h4>Which payment methods do you accept?</h4>
-                <p class="mb-0">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod maecenas.</p>
-                </div>
-            </div>
-            </div>
-            <!-- /column -->
-            <div class="col-lg-6">
-            <div class="d-flex flex-row">
-                <div>
-                <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
-                </div>
-                <div>
-                <h4>How can I manage my Account?</h4>
-                <p class="mb-0">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod maecenas.</p>
-                </div>
-            </div>
-            </div>
-            <!-- /column -->
-            <div class="col-lg-6">
-            <div class="d-flex flex-row">
-                <div>
-                <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
-                </div>
-                <div>
-                <h4>Is my credit card information secure?</h4>
-                <p class="mb-0">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod maecenas.</p>
-                </div>
-            </div>
+            <!--/.card -->
             </div>
             <!-- /column -->
         </div>
         <!-- /.row -->
-        </div>
-        <!-- /column -->
-    </div>
-    <!-- /.row -->
     </div>
     <!-- /.container -->
 </section>
