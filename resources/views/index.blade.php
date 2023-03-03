@@ -7,8 +7,8 @@
         <h1 class="display-2 mb-5 text-white">Safe, Reliable, Affordable, and Convenient</h1>
         <p class="lead fs-lg lh-sm mb-7 pe-xl-10">We have a diverse range of vehicles in our fleet, including compact cars, midsize sedans, SUVs, luxury vehicles, Mini Vans like Toyota Hiace, which is suitable for a small group for a comfortable ride and also for transporting of goods etc.</p>
         <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-            <span><a href="#" class="btn btn-lg btn-white rounded-pill me-2">Book Now</a></span>
-            <span><a href="#" class="btn btn-lg btn-outline-white rounded-pill">Contact Us</a></span>
+            <span><a href="/contact" class="btn btn-lg btn-white rounded-pill me-2">Book Now</a></span>
+            <span><a href="/contact" class="btn btn-lg btn-outline-white rounded-pill">Contact Us</a></span>
         </div>
         </div>
         <!--/column -->
@@ -51,9 +51,9 @@
             <div class="card">
             <div class="card-body">
                 <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-phone-volume"></i> </div>
-                <h4>24/7 Support</h4>
-                <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
-                <a href="#" class="more hover link-primary">Learn More</a>
+                <h4>Daily Deals</h4>
+                <p class="mb-2">Please submit the inquiry form to get more details.</p>
+                <a href="/contact" class="more hover link-primary">CONTACT</a>
             </div>
             <!--/.card-body -->
             </div>
@@ -64,9 +64,9 @@
             <div class="card">
             <div class="card-body">
                 <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-shield-exclamation"></i> </div>
-                <h4>Secure Payments</h4>
-                <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
-                <a href="#" class="more hover link-primary">Learn More</a>
+                <h4>Weekly Deals</h4>
+                <p class="mb-2">Please submit the inquiry form to get more details.</p>
+                <a href="/contact" class="more hover link-primary">CONTACT</a>
             </div>
             <!--/.card-body -->
             </div>
@@ -77,9 +77,9 @@
             <div class="card">
             <div class="card-body">
                 <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-laptop-cloud"></i> </div>
-                <h4>Daily Updates</h4>
-                <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
-                <a href="#" class="more hover link-primary">Learn More</a>
+                <h4>Monthly Deals</h4>
+                <p class="mb-2">Please submit the inquiry form to get more details.</p>
+                <a href="/contact" class="more hover link-primary">CONTACT</a>
             </div>
             <!--/.card-body -->
             </div>
@@ -90,9 +90,9 @@
             <div class="card">
             <div class="card-body">
                 <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-chart-line"></i> </div>
-                <h4>Market Research</h4>
-                <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
-                <a href="#" class="more hover link-primary">Learn More</a>
+                <h4>Corporate Booking</h4>
+                <p class="mb-2">Please submit the inquiry form to get more details.</p>
+                <a href="/contact" class="more hover link-primary">CONTACT</a>
             </div>
             <!--/.card-body -->
             </div>

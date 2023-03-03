@@ -36,23 +36,23 @@
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="/about">About Us</a>
                 </li>
                 <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link" href="#">Our Services</a>
+                  <a class="nav-link" href="/service">Our Services</a>
                 </li>
                 <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="/contact">Contact Us</a>
                 </li>
               </ul>
               <!-- /.navbar-nav -->
               <div class="offcanvas-footer d-lg-none">
                 <div>
-                  <a href="mailto:hello@mnprental.com" class="link-inverse">hello@mnprental.com</a>
-                  <br /> 00 (123) 456 78 90 <br />
+                  <a href="mailto:sales@mnprental.com" class="link-inverse">sales@mnprental.com</a>
+                  <br /> +971 58 5540504 <br />
                   <nav class="nav social social-white mt-4">
                     <a href="#"><i class="uil uil-facebook-f"></i></a>
                     <a href="#"><i class="uil uil-instagram"></i></a>
@@ -68,7 +68,7 @@
           <div class="navbar-other ms-lg-4">
             <ul class="navbar-nav flex-row align-items-center ms-auto">
               <li class="nav-item d-none d-md-block">
-                <a href="#" class="btn btn-sm btn-white rounded-pill">Book Now</a>
+                <a href="/contact" class="btn btn-sm btn-white rounded-pill">Book Now</a>
               </li>
               <li class="nav-item d-lg-none">
                 <button class="hamburger offcanvas-nav-btn"><span></span></button>
@@ -87,13 +87,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="bg-navy text-inverse">
-    <div class="container py-13 py-md-15">
-      <div class="d-lg-flex flex-row align-items-lg-center">
-        <h3 class="display-4 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white">Join our community by using our services and grow your business.</h3>
-        <a href="#" class="btn btn-primary rounded-pill mb-0 text-nowrap">Request a Callback</a>
-      </div>
-      <!--/div -->
-      <hr class="mt-11 mb-12" />
+    <div class="container py-13">
       <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-3">
           <div class="widget">
@@ -114,8 +108,8 @@
         <div class="col-md-4 col-lg-3">
           <div class="widget">
             <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-            <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
-            <a href="mailto:#">info@email.com</a><br /> 00 (123) 456 78 90
+            <address class="pe-xl-15 pe-xxl-17">Bin Shabib Mall, Block 3, #409, Alqusais, Dubai</address>
+            <a href="mailto:sales@mnprental">sales@mnprental.com</a><br /> +971 58 5540504
           </div>
           <!-- /.widget -->
         </div>
@@ -124,11 +118,9 @@
           <div class="widget">
             <h4 class="widget-title text-white mb-3">Learn More</h4>
             <ul class="list-unstyled  mb-0">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/services">Our Services</a></li>
+              <li><a href="/contact">Contact Us</a></li>
             </ul>
           </div>
           <!-- /.widget -->
@@ -136,17 +128,17 @@
         <!-- /column -->
         <div class="col-md-12 col-lg-3">
           <div class="widget">
-            <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
-            <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+            <h4 class="widget-title text-white mb-3">Request Callback</h4>
+            <p class="mb-5">Drop your phone number and our executive will reach out you shortly.</p>
             <div class="newsletter-wrapper">
               <!-- Begin Mailchimp Signup Form -->
               <div id="mc_embed_signup2">
                 <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank" novalidate>
                   <div id="mc_embed_signup_scroll2">
                     <div class="mc-field-group input-group form-floating">
-                      <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
-                      <label for="mce-EMAIL2">Email Address</label>
-                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
+                      <input type="text" value="" name="EMAIL" class="required form-control" placeholder="Phone Number" id="mce-EMAIL2">
+                      <label for="mce-EMAIL2">Phone Number</label>
+                      <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
                     </div>
                     <div id="mce-responses2" class="clear">
                       <div class="response" id="mce-error-response2" style="display:none"></div>

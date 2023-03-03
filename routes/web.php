@@ -17,3 +17,15 @@ Route::get('/', function () {
     $title = "MNP Rental - Car Rental in Dubai"; $description = ""; $keywords = "";
     return view('index', compact('title', 'description', 'keywords'));
 });
+Route::get('/about', function () {
+    $title = "MNP Rental - About"; $description = ""; $keywords = "";
+    return view('about', compact('title', 'description', 'keywords'));
+});
+Route::get('/service', function () {
+    $title = "MNP Rental - Our Services"; $description = ""; $keywords = "";
+    return view('services', compact('title', 'description', 'keywords'));
+});
+Route::get('/contact', function () {
+    $title = "MNP Rental - Contact Us"; $description = ""; $keywords = "";
+    return view('contact', compact('title', 'description', 'keywords'));
+});
