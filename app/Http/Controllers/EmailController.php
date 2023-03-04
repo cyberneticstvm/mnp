@@ -20,4 +20,15 @@ class EmailController extends Controller
         });        
         return redirect()->route('message')->with('success','Your message has been sent successfully.');
     }
+
+    public function callback(Request $request){
+        $this->validate($request, [
+            'mobile' => 'required',
+        ]);
+        Mail::send('email.callback', ['sender' => $request], function($message){
+            $message->to('sales@mnprental.com');
+            $message->subject('MNP Rental - New Callback request has been received');
+        });        
+        echo "success";
+    }
 }

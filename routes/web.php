@@ -29,7 +29,10 @@ Route::get('/contact', function () {
     $title = "MNP Rental - Contact Us"; $description = ""; $keywords = "";
     return view('contact', compact('title', 'description', 'keywords'));
 });
+
 Route::post('/', [EmailController::class, 'contactemail'])->name('contact.submit');
+Route::get('/callback', [EmailController::class, 'callback'])->name('callback.submit');
+
 Route::get('/message', function () {
     $title = "MNP Rental - Thank You"; $description = ""; $keywords = "";
     return view('message', compact('title', 'description', 'keywords'));

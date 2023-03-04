@@ -134,19 +134,20 @@
             <div class="newsletter-wrapper">
               <!-- Begin Mailchimp Signup Form -->
               <div id="mc_embed_signup2">
-                <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank" novalidate>
+                <form action="{{ route('callback.submit') }}" method="post">
+                  @csrf
                   <div id="mc_embed_signup_scroll2">
                     <div class="mc-field-group input-group form-floating">
-                      <input type="text" value="" name="EMAIL" class="required form-control" placeholder="Phone Number" id="mce-EMAIL2">
-                      <label for="mce-EMAIL2">Phone Number</label>
-                      <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
+                      <input type="text" value="" name="mobile" class="required form-control" placeholder="Phone Number" id="mobile">
+                      <label for="mobile">Phone Number</label>
+                      <input type="button" value="Send" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-callback btn-primary" required>
                     </div>
                     <div id="mce-responses2" class="clear">
                       <div class="response" id="mce-error-response2" style="display:none"></div>
                       <div class="response" id="mce-success-response2" style="display:none"></div>
                     </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
-                    <div class="clear"></div>
+                    <div class="msg"></div>
                   </div>
                 </form>
               </div>
@@ -194,6 +195,23 @@
           headers: {
               'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
           }
+      });
+
+      $(".btn-callback").click(function(){
+        var mobile = $("#mobile").val();
+        $.ajax({
+            type: 'GET',
+            url: '/callback',
+            data: {'mobile': mobile},
+            success: function(response){
+              $("#mobile").val('');
+              $(".msg").html(response);
+            },
+            error: function(XMLHttpRequest, textStatus, errorThrown){
+                console.log(XMLHttpRequest);
+            }
+        });
+        return false;
       });
     });
   </script>

@@ -357,7 +357,7 @@
     <div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-18">
         <div class="col-md-8 col-lg-6 position-relative">
         <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
-        <figure class="rounded"><img src="{{ asset('assets/img/photos/about12.jpg') }}" srcset="{{ asset('assets/img/photos/about12.jpg') }}" alt=""></figure>
+        <figure class="rounded"><img src="{{ asset('assets/img/mnp/brunette-businesswoman-inside-car.webp') }}" srcset="{{ asset('assets/img/mnp/brunette-businesswoman-inside-car.webp') }}" alt=""></figure>
         </div>
         <!--/column -->
         <div class="col-lg-5 offset-lg-1">
