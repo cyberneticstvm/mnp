@@ -16,9 +16,9 @@
         <div class="swiper-container dots-over shadow-lg" data-margin="5" data-nav="true" data-dots="true" data-autoplay="true">
             <div class="swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="{{ asset('assets/img/mnp/photo1.webp') }}" srcset="{{ asset('assets/img/mnp/photo1.webp') }}" class="rounded" alt="" /></div>
-                <div class="swiper-slide"><img src="{{ asset('assets/img/mnp/photo2.webp') }}" srcset="{{ asset('assets/img/mnp/photo2.webp') }}" class="rounded" alt="" /></div>
-                <div class="swiper-slide"><img src="{{ asset('assets/img/mnp/photo3.webp') }}" srcset="{{ asset('assets/img/mnp/photo3.webp') }}" class="rounded" alt="" /></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/img/mnp/photo1.webp') }}" srcset="{{ asset('assets/img/mnp/photo1.webp') }}" class="rounded" alt="MNP Rental" /></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/img/mnp/photo2.webp') }}" srcset="{{ asset('assets/img/mnp/photo2.webp') }}" class="rounded" alt="MNP Rental" /></div>
+                <div class="swiper-slide"><img src="{{ asset('assets/img/mnp/photo3.webp') }}" srcset="{{ asset('assets/img/mnp/photo3.webp') }}" class="rounded" alt="MNP Rental" /></div>
             </div>
             <!--/.swiper-wrapper -->
             </div>
@@ -105,7 +105,7 @@
     <!-- /.position-relative -->
     <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-17">
         <div class="col-lg-7">
-        <figure><img class="w-auto" src="{{ asset('assets/img/mnp/full-shot-adults-traveling-with-kid.webp') }}" srcset="{{ asset('assets/img/mnp/full-shot-adults-traveling-with-kid.webp') }}" alt="" /></figure>
+        <figure><img class="w-auto" src="{{ asset('assets/img/mnp/full-shot-adults-traveling-with-kid.webp') }}" srcset="{{ asset('assets/img/mnp/full-shot-adults-traveling-with-kid.webp') }}" alt="MNP Rental" /></figure>
         </div>
         <!--/column -->
         <div class="col-lg-5">
@@ -162,7 +162,7 @@
     <!--/.row -->
     <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-md-15">
         <div class="col-lg-7 order-lg-2">
-        <figure><img class="w-auto" src="{{ asset('assets/img/mnp/hiace.webp') }}" srcset="{{ asset('assets/img/mnp/hiace.webp') }}" alt="" /></figure>
+        <figure><img class="w-auto" src="{{ asset('assets/img/mnp/hiace.webp') }}" srcset="{{ asset('assets/img/mnp/hiace.webp') }}" alt="MNP Rental" /></figure>
         </div>
         <!--/column -->
         <div class="col-lg-5">
@@ -249,7 +249,7 @@
                 <div class="item-inner">
                 <article>
                     <div class="card">
-                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{{ asset('assets/img/mnp/std-car.webp') }}" alt="" /></a>
+                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{{ asset('assets/img/mnp/std-car.webp') }}" alt="MNP Rental" /></a>
                         <figcaption>
                         <h5 class="from-top mb-0"></h5>
                         </figcaption>
@@ -272,7 +272,7 @@
                 <div class="item-inner">
                 <article>
                     <div class="card">
-                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{{ asset('assets/img/mnp/luxury-car.webp') }}" alt="" /></a>
+                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{{ asset('assets/img/mnp/luxury-car.webp') }}" alt="MNP Rental" /></a>
                         <figcaption>
                         <h5 class="from-top mb-0"></h5>
                         </figcaption>
@@ -296,7 +296,7 @@
                 <div class="item-inner">
                 <article>
                     <div class="card">
-                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{{ asset('assets/img/mnp/hiace-car.webp') }}" alt="" /></a>
+                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{{ asset('assets/img/mnp/hiace-car.webp') }}" alt="MNP Rental" /></a>
                         <figcaption>
                         <h5 class="from-top mb-0"></h5>
                         </figcaption>
@@ -320,7 +320,7 @@
                 <div class="item-inner">
                 <article>
                     <div class="card">
-                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{{ asset('assets/img/mnp/pickup.webp') }}" alt="" /></a>
+                    <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="{{ asset('assets/img/mnp/pickup.webp') }}" alt="MNP Rental" /></a>
                         <figcaption>
                         <h5 class="from-top mb-0"></h5>
                         </figcaption>
@@ -357,7 +357,7 @@
     <div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-18">
         <div class="col-md-8 col-lg-6 position-relative">
         <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
-        <figure class="rounded"><img src="{{ asset('assets/img/mnp/brunette-businesswoman-inside-car.webp') }}" srcset="{{ asset('assets/img/mnp/brunette-businesswoman-inside-car.webp') }}" alt=""></figure>
+        <figure class="rounded"><img src="{{ asset('assets/img/mnp/brunette-businesswoman-inside-car.webp') }}" srcset="{{ asset('assets/img/mnp/brunette-businesswoman-inside-car.webp') }}" alt="MNP Rental"></figure>
         </div>
         <!--/column -->
         <div class="col-lg-5 offset-lg-1">
