@@ -29,6 +29,6 @@ class EmailController extends Controller
             $message->to('sales@mnprental.com');
             $message->subject('MNP Rental - New Callback request has been received');
         });        
-        echo "success";
+        echo "Thank you! Your request is submitted successfully.";
     }
 }
