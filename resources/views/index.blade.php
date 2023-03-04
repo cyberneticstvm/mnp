@@ -50,7 +50,7 @@
         <div class="col-md-6 col-xl-3">
             <div class="card">
             <div class="card-body">
-                <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-phone-volume"></i> </div>
+                <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-car"></i> </div>
                 <h4>Daily Deals</h4>
                 <p class="mb-2">Please submit the inquiry form to get more details.</p>
                 <a href="/contact" class="more hover link-primary">CONTACT</a>
@@ -63,7 +63,7 @@
         <div class="col-md-6 col-xl-3">
             <div class="card">
             <div class="card-body">
-                <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-shield-exclamation"></i> </div>
+                <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-bus"></i> </div>
                 <h4>Weekly Deals</h4>
                 <p class="mb-2">Please submit the inquiry form to get more details.</p>
                 <a href="/contact" class="more hover link-primary">CONTACT</a>
@@ -76,7 +76,7 @@
         <div class="col-md-6 col-xl-3">
             <div class="card">
             <div class="card-body">
-                <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-laptop-cloud"></i> </div>
+                <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-car"></i> </div>
                 <h4>Monthly Deals</h4>
                 <p class="mb-2">Please submit the inquiry form to get more details.</p>
                 <a href="/contact" class="more hover link-primary">CONTACT</a>
@@ -89,7 +89,7 @@
         <div class="col-md-6 col-xl-3">
             <div class="card">
             <div class="card-body">
-                <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-chart-line"></i> </div>
+                <div class="icon btn btn-circle btn-lg btn-primary pe-none mb-3"> <i class="uil uil-bus"></i> </div>
                 <h4>Corporate Booking</h4>
                 <p class="mb-2">Please submit the inquiry form to get more details.</p>
                 <a href="/contact" class="more hover link-primary">CONTACT</a>

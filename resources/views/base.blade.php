@@ -55,8 +55,8 @@
                   <a href="mailto:sales@mnprental.com" class="link-inverse">sales@mnprental.com</a>
                   <br /> +971 58 5540504 <br />
                   <nav class="nav social social-white mt-4">
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a>
                   </nav>
                   <!-- /.social -->
                 </div>
@@ -95,11 +95,8 @@
             <img class="mb-4 footer-logo" src="{{ asset('assets/img/mnp/mnp-white.png') }}" srcset="{{ asset('assets/img/mnp/mnp-white.png') }}" alt="" />
             <p class="mb-4">© {{ date('Y') }} mnprental.com. <br class="d-none d-lg-block" />All rights reserved.</p>
             <nav class="nav social social-white">
-              <a href="#"><i class="uil uil-twitter"></i></a>
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href="#"><i class="uil uil-dribbble"></i></a>
-              <a href="#"><i class="uil uil-instagram"></i></a>
-              <a href="#"><i class="uil uil-youtube"></i></a>
+              <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook-f"></i></a>
+              <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a>
             </nav>
             <!-- /.social -->
           </div>
