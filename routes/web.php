@@ -14,19 +14,19 @@ use App\Http\Controllers\EmailController;
 */
 
 Route::get('/', function () {
-    $title = "MNP Rental - Car Rental in Dubai"; $description = ""; $keywords = "";
+    $title = "MNP Rental - Car Rental in Dubai"; $description = "MNP Rental is an economy car rental company in Dubai."; $keywords = "Car Rental, Luxury Cars, Pickups, Hiace rental";
     return view('index', compact('title', 'description', 'keywords'));
 });
 Route::get('/about', function () {
-    $title = "MNP Rental - About"; $description = ""; $keywords = "";
+    $title = "MNP Rental - About"; $description = "MNP Rental is an economy car rental company in Dubai."; $keywords = "Car Rental, Luxury Cars, Pickups, Hiace rental";
     return view('about', compact('title', 'description', 'keywords'));
 });
 Route::get('/service', function () {
-    $title = "MNP Rental - Our Services"; $description = ""; $keywords = "";
+    $title = "MNP Rental - Our Services"; $description = "MNP Rental is an economy car rental company in Dubai."; $keywords = "Car Rental, Luxury Cars, Pickups, Hiace rental";
     return view('services', compact('title', 'description', 'keywords'));
 });
 Route::get('/contact', function () {
-    $title = "MNP Rental - Contact Us"; $description = ""; $keywords = "";
+    $title = "MNP Rental - Contact Us"; $description = "MNP Rental is an economy car rental company in Dubai."; $keywords = "Car Rental, Luxury Cars, Pickups, Hiace rental";
     return view('contact', compact('title', 'description', 'keywords'));
 });
 
