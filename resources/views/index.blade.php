@@ -422,7 +422,7 @@
                                 <div class="swiper-slide">
                                 <span class="ratings five mb-3"></span>
                                 <blockquote class="border-0 fs-lg mb-2">
-                                    <p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio consectetur.”</p>
+                                    <p>“Very nice and competent contact person, tries very hard to organize everything to the satisfaction of the customer! Very friendly communication in German or English! Many thanks for everything!”</p>
                                     <div class="blockquote-details justify-content-center text-center">
                                     <div class="info ps-0">
                                         <h5 class="mb-1 text-white">Coriss Ambady</h5>
@@ -435,7 +435,7 @@
                                 <div class="swiper-slide">
                                 <span class="ratings five mb-3"></span>
                                 <blockquote class="border-0 fs-lg mb-2">
-                                    <p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio consectetur.”</p>
+                                    <p>“Everything worked out wonderful. We had read about this company on a forum. The car was delivered to the hotel on time and the price is fair. We received a friendly briefing and the car itself was in perfect condition. ”</p>
                                     <div class="blockquote-details justify-content-center text-center">
                                     <div class="info ps-0">
                                         <h5 class="mb-1 text-white">Cory Zamora</h5>
@@ -448,7 +448,7 @@
                                 <div class="swiper-slide">
                                 <span class="ratings five mb-3"></span>
                                 <blockquote class="border-0 fs-lg mb-2">
-                                    <p>“Vivamus sagittis lacus augue laoreet rutrum faucibus auctor vestibulum ligula porta felis, euismod semper cras justo odio consectetur.”</p>
+                                    <p>“The service was impeccable, the car was delivered to the hotel perfectly and on time, the vehicle was in top condition, collection from the hotel was also uncomplicated and easy.”</p>
                                     <div class="blockquote-details justify-content-center text-center">
                                     <div class="info ps-0">
                                         <h5 class="mb-1 text-white">Nikolas Brooten</h5>
