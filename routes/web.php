@@ -33,4 +33,4 @@ Route::post('/', [EmailController::class, 'contactemail'])->name('contact.submit
 Route::get('/message', function () {
     $title = "MNP Rental - Thank You"; $description = ""; $keywords = "";
     return view('message', compact('title', 'description', 'keywords'));
-});
+})->name('message');
