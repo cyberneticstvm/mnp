@@ -31,4 +31,12 @@ class EmailController extends Controller
         });        
         echo "Thank you! Your request is submitted successfully.";
     }
+
+    public function sitemap(){
+        return response()->view('sitemap')->header('Content-Type', 'text/xml');
+    }
+
+    public function robots(){
+        return response()->view('robots')->header('Content-Type', 'text/plain');
+    }
 }

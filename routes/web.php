@@ -37,3 +37,6 @@ Route::get('/message', function () {
     $title = "MNP Rental - Thank You"; $description = ""; $keywords = "";
     return view('message', compact('title', 'description', 'keywords'));
 })->name('message');
+
+Route::get('/sitemap.xml', [EmailController::class, 'sitemap']);
+Route::get('/robots.txt', [EmailController::class, 'robots']);
