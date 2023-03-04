@@ -356,31 +356,49 @@
     <div class="container py-14 py-md-17">
     <div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-18">
         <div class="col-md-8 col-lg-6 position-relative">
-        <a href="./assets/media/movie.mp4" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-5 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox data-gallery="about"><i class="icn-caret-right"></i></a>
         <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
-        <figure class="rounded"><img src="./assets/img/photos/about12.jpg" srcset="./assets/img/photos/about12@2x.jpg 2x" alt=""></figure>
+        <figure class="rounded"><img src="{{ asset('assets/img/photos/about12.jpg') }}" srcset="{{ asset('assets/img/photos/about12.jpg') }}" alt=""></figure>
         </div>
         <!--/column -->
         <div class="col-lg-5 offset-lg-1">
-        <h2 class="fs-15 text-uppercase text-primary mb-3">Who Are We?</h2>
-        <h3 class="display-4 mb-6">Company that believes in the power of creative strategy.</h3>
-        <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-        <div class="row gy-3 gx-xl-8">
-            <div class="col-xl-6">
-            <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li><span><i class="uil uil-check"></i></span><span>Aenean eu leo quam ornare curabitur blandit tempus.</span></li>
-                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis ornare donec elit.</span></li>
-            </ul>
+        <h2 class="fs-15 text-uppercase text-primary mb-3">Contact Us</h2>
+        <h5 class="mb-6">Drop a message and our executive will reach out you shortly.</h5>
+        <form method="post" action="{{ route('contact.submit') }}">
+            @csrf
+            <div class="row">
+                <div class="col-12">
+                    <label>Full Name</label>
+                    <input type="text" name="name" class="form-control form-control-sm" placeholder="Full Name" required/>
+                    @error('name')
+                    <small class="text-danger">{{ $errors->first('name') }}</small>
+                    @enderror
+                </div>
+                <div class="col-6 mt-3">
+                    <label>Mobile</label>
+                    <input type="text" name="mobile" class="form-control form-control-sm" placeholder="Mobile" required/>
+                    @error('mobile')
+                    <small class="text-danger">{{ $errors->first('mobile') }}</small>
+                    @enderror
+                </div>
+                <div class="col-6 mt-3">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control form-control-sm" placeholder="Email" required/>
+                    @error('email')
+                    <small class="text-danger">{{ $errors->first('email') }}</small>
+                    @enderror
+                </div>
+                <div class="col-12 mt-3">
+                    <label>Message</label>
+                    <textarea class="form-control form-control-sm" name="message" placeholder="Message" required></textarea>
+                    @error('message')
+                    <small class="text-danger">{{ $errors->first('message') }}</small>
+                    @enderror
+                </div>
+                <div class="col-12 mt-3 text-end">
+                    <button type="submit" class="btn btn-primary btn-submit btn-sm">Submit</button>
+                </div>
             </div>
-            <!--/column -->
-            <div class="col-xl-6">
-            <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li><span><i class="uil uil-check"></i></span><span>Etiam porta sem malesuada magna mollis euismod.</span></li>
-                <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Fermentum massa vivamus faucibus amet euismod.</span></li>
-            </ul>
-            </div>
-            <!--/column -->
-        </div>
+        </form>
         <!--/.row -->
         </div>
         <!--/column -->
@@ -391,7 +409,7 @@
 </section>
 <!-- /section -->
 <section class="wrapper bg-gray">
-    <div class="container py-14 pt-md-0 pb-md-17">
+    <div class="container py-14 pt-md-0">
         <div class="row mt-md-n50p text-white text-center">
             <div class="col-xl-10 mx-auto mb-14 mb-lg-n6">
                 <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400" data-image-src="./assets/img/photos/bg2.jpg">
