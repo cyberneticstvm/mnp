@@ -43,7 +43,7 @@
         <!-- /column -->
     </div>
     <!-- /.row -->
-    <div class="position-relative mb-14 mb-md-17">
+    <div class="position-relative mb-14 mb-md-17 sec-dark">
         <div class="shape rounded-circle bg-soft-primary rellax w-16 h-16" data-rellax-speed="1" style="bottom: -0.5rem; right: -2.5rem; z-index: 0;"></div>
         <div class="shape bg-dot primary rellax w-16 h-17" data-rellax-speed="1" style="top: -0.5rem; left: -2.5rem; z-index: 0;"></div>
         <div class="row gx-md-5 gy-5 text-center">
@@ -103,7 +103,7 @@
         <!--/.row -->
     </div>
     <!-- /.position-relative -->
-    <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-17">
+    <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-17 sec-dark">
         <div class="col-lg-7">
         <figure><img class="w-auto" src="{{ asset('assets/img/mnp/full-shot-adults-traveling-with-kid.webp') }}" srcset="{{ asset('assets/img/mnp/full-shot-adults-traveling-with-kid.webp') }}" alt="MNP Rental" /></figure>
         </div>
@@ -160,7 +160,7 @@
         <!--/column -->
     </div>
     <!--/.row -->
-    <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-md-15">
+    <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-md-15 sec-dark">
         <div class="col-lg-7 order-lg-2">
         <figure><img class="w-auto" src="{{ asset('assets/img/mnp/hiace.webp') }}" srcset="{{ asset('assets/img/mnp/hiace.webp') }}" alt="MNP Rental" /></figure>
         </div>
@@ -422,11 +422,11 @@
                                 <div class="swiper-slide">
                                 <span class="ratings five mb-3"></span>
                                 <blockquote class="border-0 fs-lg mb-2">
-                                    <p>“Very nice and competent contact person, tries very hard to organize everything to the satisfaction of the customer! Very friendly communication in German or English! Many thanks for everything!”</p>
+                                    <p class="text-white">“Very nice and competent contact person, tries very hard to organize everything to the satisfaction of the customer! Very friendly communication in German or English! Many thanks for everything!”</p>
                                     <div class="blockquote-details justify-content-center text-center">
                                     <div class="info ps-0">
                                         <h5 class="mb-1 text-white">Coriss Ambady</h5>
-                                        <p class="mb-0">Financial Analyst</p>
+                                        <p class="mb-0 text-white">Financial Analyst</p>
                                     </div>
                                     </div>
                                 </blockquote>
@@ -435,11 +435,11 @@
                                 <div class="swiper-slide">
                                 <span class="ratings five mb-3"></span>
                                 <blockquote class="border-0 fs-lg mb-2">
-                                    <p>“Everything worked out wonderful. We had read about this company on a forum. The car was delivered to the hotel on time and the price is fair. We received a friendly briefing and the car itself was in perfect condition. ”</p>
+                                    <p class="text-white">“Everything worked out wonderful. We had read about this company on a forum. The car was delivered to the hotel on time and the price is fair. We received a friendly briefing and the car itself was in perfect condition. ”</p>
                                     <div class="blockquote-details justify-content-center text-center">
                                     <div class="info ps-0">
                                         <h5 class="mb-1 text-white">Cory Zamora</h5>
-                                        <p class="mb-0">Marketing Specialist</p>
+                                        <p class="mb-0 text-white">Marketing Specialist</p>
                                     </div>
                                     </div>
                                 </blockquote>
@@ -448,11 +448,11 @@
                                 <div class="swiper-slide">
                                 <span class="ratings five mb-3"></span>
                                 <blockquote class="border-0 fs-lg mb-2">
-                                    <p>“The service was impeccable, the car was delivered to the hotel perfectly and on time, the vehicle was in top condition, collection from the hotel was also uncomplicated and easy.”</p>
+                                    <p class="text-white">“The service was impeccable, the car was delivered to the hotel perfectly and on time, the vehicle was in top condition, collection from the hotel was also uncomplicated and easy.”</p>
                                     <div class="blockquote-details justify-content-center text-center">
                                     <div class="info ps-0">
                                         <h5 class="mb-1 text-white">Nikolas Brooten</h5>
-                                        <p class="mb-0">Sales Manager</p>
+                                        <p class="mb-0 text-white">Sales Manager</p>
                                     </div>
                                     </div>
                                 </blockquote>

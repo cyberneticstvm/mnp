@@ -19,7 +19,7 @@
     </div>
     <!-- /.container -->
 </section>
-<section class="wrapper mt-5">
+<section class="wrapper mt-5 sec-dark">
     <div class="container py-14 pt-md-0 pb-md-16">
         <div class="row">
             <div class="col-lg-12 col-xl-12 col-xxl-12 mx-auto">

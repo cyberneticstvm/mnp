@@ -11,3 +11,6 @@ Author:		elemis
 .footer-logo{
     width: 50% !important;
 }
+.sec-dark p{
+    color: #000 !important;
+}

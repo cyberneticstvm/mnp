@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N58JFZ8NVC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-N58JFZ8NVC');
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ $description }}">
@@ -93,7 +102,7 @@
         <div class="col-md-4 col-lg-3">
           <div class="widget">
             <img class="mb-4 footer-logo" src="{{ asset('assets/img/mnp/mnp-white.png') }}" srcset="{{ asset('assets/img/mnp/mnp-white.png') }}" alt="" />
-            <p class="mb-4">© {{ date('Y') }} mnprental.com. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <p class="mb-4 text-white">© {{ date('Y') }} mnprental.com. <br class="d-none d-lg-block" />All rights reserved.</p>
             <nav class="nav social social-white">
               <a href="https://facebook.com" target="_blank"><i class="uil uil-facebook-f"></i></a>
               <a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a>
